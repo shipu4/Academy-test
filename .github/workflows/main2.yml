@@ -33,6 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           sudo yum install python -y
-          pip 3 install pandas
+          pip3 install pandas
           pip install azure-storage-blob
           python merge.py
